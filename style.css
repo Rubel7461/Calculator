@@ -1,0 +1,100 @@
+body{
+    background-color:#002451 ;
+}
+h2.my-2.py-2.text-white.text-center {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+form.searchfrom {
+    position: relative;
+}
+.searchfrom input {
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    padding: 0px 15px;
+    border: none;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+    display: inline-block;
+    filter: blur(0.4px);
+    box-shadow: rgb(221 221 221) 0px 6px 142px;
+}
+button.submit-button {
+    position: absolute;
+    top: 21%;
+    right: 4%;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 23px;
+    font-size: 32px;
+    box-shadow: inset 0 1px 12px red;
+    text-align: center;
+}
+button.submit-button ion-icon {
+    position: relative;
+    left: -4px;
+}
+
+
+.calculator {
+    width: 500px;
+    margin: auto;
+    max-width: 100%;
+    box-shadow: 25px 25px 75px rgba(0,0,0,.25),
+                10px 10px 70px rgba(0,0,0,.25),
+                inset -5px -5px 15px rgba(0,0,0,.5),
+                inset 5px 5px 15px rgba(0,0,0,.5);
+                
+    height: auto;
+}
+span.num{
+    color: #fff;
+}
+.yes-calculator {
+    position: relative;
+    display: grid;
+    padding: 25px;
+}
+.yes-calculator .value {
+    position: relative;
+    grid-column: span 4;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 30px;
+}
+span.num {
+    color: #fff;
+    width: 70px;
+    height: 60px;
+    box-shadow: 4px 3px 27px #ddd;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    right: -12px;
+    border-radius: 10px;
+    margin: 10px;
+}
+span.num.c {
+    grid-column: span 2;
+    width: 82%;
+    box-shadow: inset 10px 10px 49px rosybrown;
+}
+span.num.equl {
+    width: 194px;
+    grid-column: span 2;
+    font-size: 54px;
+    position: relative;
+    top: 3px;
+}
